@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+   
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #282c3f;
+   
+   
+}
+img{
+    cursor: pointer;
+}
+
+
+.kc1{
+    position: relative;
+    margin-top: 123px;
+    display: flex;
+    overflow:auto;
+}
+
+.kc1 img{
+    height: auto;
+    width: 100%;
+}
+
+.heading{
+    font-size: 1.7em;
+    letter-spacing: .15em;
+    margin-left: 10px;
+}
+
+.heading h4{
+    color: #3e4152;
+    padding-top: 75px;
+    padding-left: 80px;
+    padding-bottom: 65px;
+}
+
+                                /* brands */
+
+.brands{
+    display: flex;
+    align-items: left;
+    height: 152px;
+    width: 160px;
+}
+
+
+                            /* top */
+
+.top{
+    display: flex;
+}
+.top img{
+   height: 108px;
+   width: 122px;
+}
+
+
+                            /* iconic */
+
+.iconic{
+    display: flex;
+}
+.iconic img{
+    max-height: 320px;
+    max-width: 269px;
+}
+
+
+                            /* iconic */
+
+.fashion{
+    display: flex;
+}
+.fashion img{
+    max-height: 350px;
+    max-width: 380px;
+}
+
+
+                            /* iconic */
+
+.essentials{
+    display: flex;
+}
+.essentials img{
+    max-height: 350px;
+    max-width: 380px;
+}

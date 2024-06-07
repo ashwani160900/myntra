@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+   
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #282c3f;
+   
+   
+}
+img{
+    cursor: pointer;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+
+
+        /* header */
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start ;
+    /* background-color: rebeccapurple; */
+    padding: 20px 47px;
+    font-weight: 720;
+    font-size: 14px;
+    height: 40px;
+    background-color: white;
+    color: #282c3f;
+    /* letter-spacing: 0.3px; */
+    font-family: "Assistant", sans-serif;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+
+header .container .logo img{
+    height: 42px;
+    width: 62px;
+    display: flex;
+}
+
+header .container .men{
+    padding: 28px 18px 28px 26px;
+}
+
+header .container .women{
+    padding: 28px 17px ;
+}
+
+header .container .kids a{
+    text-decoration: none;
+    padding: 28px 17px ;
+    color: black;
+}
+
+header .container .home{
+    padding: 28px 17px ;
+}
+
+header .container .beauty{
+    padding: 28px 17px ;
+}
+
+header .container .studio{
+    padding: 28px 17px ;
+}
+header .container .superscript {
+    vertical-align: super;
+    font-size: 1.4rex;
+    color: #ff3f6c;
+    position: absolute;
+    top: 28px;
+    left: 615px;
+  }
+/* header .search{
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+} */
+header  .search-container{
+    width: 365px;
+    height: 40px;
+    margin-left: 160px;
+    background-color: white;
+    border-radius: 7px;
+    box-sizing: 0 2px 4px 0 rgb(0 0  0 / 23%);
+    display: flex;
+}
+header  .search-container input{
+    width: calc(100% - 30px);
+    padding: 8px 10px 10px;
+    background-color: #f5f5f6;
+    border: none;
+    outline: none;
+}
+
+header  .search-container button{
+    width: 36px;
+    height: 100%;
+    padding: 0 2px px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #f5f5f6;
+    cursor: pointer;
+    outline: none;
+    border: none;
+
+}
+header .profile p{
+   font-size: 12px;
+   font-weight: 750;
+    position: absolute;
+    top: 45px;
+    right: 142px;
+}
+
+header .profile img{
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    top: 25px;
+    right: 154px;
+}
+header .wishlist img{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 25px;;
+    right: 90px;
+    background-color: white;
+}
+header .wishlist p{
+    font-size: 12px;
+    font-weight: 750;
+     position: absolute;
+     top: 45px;
+     right: 78px;
+ }
+
+ 
+header .bag img{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 25px;;
+    right: 30px;
+}
+
+header .bag p{
+    font-size: 12px;
+    font-weight: 750;
+     position: absolute;
+     top: 45px;
+     right: 30px;
+ }
+
+
+
+                                            /* main */
+
+.section1 img{
+    margin-top: 103px;
+    margin-bottom: 0px;
+    /* height: 105px;
+    width: 1350px; */
+    height: auto;
+    width: 100%;
+}
+.section2{
+    display: flex;
+}
+
+.section2a img{
+    /* height: 400px;
+    width: 700px; */
+    height: auto;
+    width: 100%;
+}
+
+.section2b img{
+    height: auto;
+    width: 100%;
+}
+
+.section3 img{
+    height: auto;
+    width: 100%;
+}
+
+.section4 img{
+    height: auto;
+    width: 100%;
+}
+
+.section5{
+    display: flex;
+}
+
+.section5a img{
+    /* height: 400px;
+    width: 700px; */
+    height: auto;
+    width: 100%;
+}
+
+.section5b img{
+    height: auto;
+    width: 100%;
+}
+
+.section6 img{
+    height: auto;
+    width: 100%;
+}
+
+                        /* main */
+
+main{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    overflow: auto;
+}
+
+.scroll img{
+    max-height: 285px;
+    max-width: 345px;
+}
+            /* shop */
+
+.shop img{
+    height: auto;
+    width: 100%;
+}
+
+
+                            /* male */
+.male{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+
+}
+
+.male img{
+    max-height: 245px;
+    max-width: 135px;
+}
+
+
+
+
+                            /* female */
+.female{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+
+}
+
+.female img{
+    max-height: 245px;
+    max-width: 135px;
+}
+
+
+
+
+                            /* makeup */
+.makeup{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+
+}
+
+.makeup img{
+    max-height: 245px;
+    max-width: 135px;
+}
+
+
+                            /* s */
+.s{
+display: flex;
+align-items: left;
+justify-content: left;
+
+}
+
+.s img{
+max-height: 245px;
+max-width: 135px;
+}
+
+
+                            /* flat */
+
+.flat{
+    position: fixed;
+    height: 50px;
+    width: 280px;
+    color: white;
+    background-color: #535766;
+    display: flex;
+    transform: rotate(-90deg);
+    top: 300px;
+    left: 1190px;
+}
+
+.flat p{
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: 450;
+}
+.flat img{
+    height: 20px;
+    padding: 10px 0px;
+    background-color: #535766;
+}
