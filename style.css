@@ -45,7 +45,9 @@ header{
     background-color: white;
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
 }
-
+.cursor{
+    cursor: pointer;
+}
 
 
 header .container .logo img{
@@ -65,7 +67,7 @@ header .container .women{
 header .container .kids a{
     text-decoration: none;
     padding: 28px 17px ;
-    color: black;
+    color: #282c3f;
 }
 
 header .container .home{
@@ -335,4 +337,17 @@ max-width: 135px;
     height: 20px;
     padding: 10px 0px;
     background-color: #535766;
+}
+
+                        /* offers */
+
+footer{
+    display: flex;
+}
+footer img{
+    height: auto;
+    width: 100%;
+    align-items: center;
+
+    justify-content: left;
 }
